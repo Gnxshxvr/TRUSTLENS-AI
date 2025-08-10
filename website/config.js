@@ -4,9 +4,7 @@ const API_CONFIG = {
         baseURL: 'http://localhost:5000'
     },
     production: {
-        baseURL: process.env.NODE_ENV === 'production' 
-            ? 'https://your-api-domain.vercel.app' 
-            : 'https://your-api-domain.onrender.com'
+        baseURL: 'https://trustlens-ai.onrender.com'
     }
 };
 
@@ -34,3 +32,4 @@ window.API_CONFIG = {
         data: '/data'
     }
 };
+
